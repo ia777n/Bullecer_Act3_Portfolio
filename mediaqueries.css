@@ -1,0 +1,95 @@
+@media (max-width: 1300px) {
+
+    .header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .header h1 {
+      margin-bottom: 10px;
+    }
+    
+    .nav-links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .nav-links a {
+      text-decoration: none;
+      font-size: 1.1em;
+    }
+  
+    .home {
+      text-align: center;
+    }
+  
+    .home img {
+      max-width: 90%;
+      height: auto;
+    }
+  
+    .home-content h2 {
+      font-size: 1.5em;
+    }
+  
+    .home-content p {
+      font-size: 1em;
+      line-height: 1.6;
+    }
+  
+    .start-button {
+      padding: 10px 20px;
+      font-size: 1em;
+    }
+
+    .about-me p {
+      font-size: 1em;
+      text-align: justify;
+    }
+  
+
+    .skills {
+      text-align: center;
+    }
+  
+    .skills p {
+      font-size: 1em;
+    }
+  
+    .projects {
+      padding: 0 20px;
+    }
+  
+    .projects div {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .projects div img {
+      width: 90%;
+      height: auto;
+      margin: 0 auto;
+    }
+  
+    .projects div div {
+      margin: 20px 0;
+    }
+  
+    .contact {
+      padding: 10px 20px;
+      text-align: center;
+    }
+  
+    .contact h3 {
+      font-size: 1.2em;
+    }
+  
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+    }
+  }
+  
